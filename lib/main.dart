@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ujilevel/Pages/HomePage.dart';
+import 'package:flutter_ujilevel/Pages/Homenew.dart';
 import 'package:flutter_ujilevel/Pages/LoginPage.dart';
 import 'package:flutter_ujilevel/Pages/ProfilePage.dart';
 import 'package:flutter_ujilevel/Pages/LandingPage.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "Poppin",
         primarySwatch: Colors.blue,
       ),
-      home: Login(),
+      home: Homenew(),
     );
   }
 }
